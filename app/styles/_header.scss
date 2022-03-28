@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+body {
+    background-color: papayawhip;
+    font-family: 'Rubik';
+}
+header {
+    max-width: 1440px;
+    background-color: white;
+    height: 65px;
+    margin: 0 auto;
+    .logo {
+        display: flex;
+        height: 100%;
+		margin-right: 10px;
+        img {
+            margin-top: 5px;
+			width: 160px;
+        }
+    }
+}
+.menu {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 15px;
+	box-sizing: border-box;
+    display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: space-between;
+    nav {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+    }
+    ul {
+        display: flex;
+		min-width: 450px;
+        list-style: none;
+        justify-content: space-between;
+        padding: 0;
+        font-weight: 400;
+        color: #4f5665;
+        li:not(:last-of-type) {
+            margin-right: 10px;
+        }
+    }
+    .SignIn {
+		display: flex;
+		width: 230px;
+		justify-content: space-between;
+		height: 45px;
+		margin: auto 0;
+    }
+}
+a {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    margin: auto 0;
+    color: #0b132a;
+}
+.Btn-Primary {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid $primary-red;
+    background-color: transparent;
+    a {
+        color: $primary-red;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        font-family: 'Rubik';
+    }
+}
