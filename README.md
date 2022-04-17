@@ -16,7 +16,7 @@ curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o inst
 
 bash install_nvm.sh
 
-source ~/.bash_profile
+source ~/.profile
 ```
 Żeby sprawdzić czy nvm został zainstalowany
 ```sh
